@@ -23,10 +23,10 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         TbPhysics = New TabPage()
-        labelGradeTb3 = New Label()
-        labelPercentageTb3 = New Label()
-        labelResultTb3 = New Label()
-        btnSubmit = New Button()
+        lblGradeTb3 = New Label()
+        lblPercentageTb3 = New Label()
+        lblScoreTb3 = New Label()
+        btnSubmitTb3 = New Button()
         GroupBox9 = New GroupBox()
         radTb3Answer3A = New RadioButton()
         RadioButton6 = New RadioButton()
@@ -40,6 +40,10 @@ Partial Class Form1
         radTb3Answer1B = New RadioButton()
         radTb3Answer1A = New RadioButton()
         TbEnglish = New TabPage()
+        btnSubmitTb2 = New Button()
+        lblGradeTb2 = New Label()
+        lblPercentageTb2 = New Label()
+        lblScoreTb2 = New Label()
         GroupBox6 = New GroupBox()
         radTb2Answer2C = New RadioButton()
         radTb2Answer2B = New RadioButton()
@@ -53,6 +57,11 @@ Partial Class Form1
         radTb2Answer1B = New RadioButton()
         radTb2Answer1A = New RadioButton()
         TbHistory = New TabPage()
+        lblGradeTb1 = New Label()
+        lblPercentageTb1 = New Label()
+        lblScoreTb1 = New Label()
+        BtnSubmitTb1 = New Button()
+        Button1 = New Button()
         GroupBox3 = New GroupBox()
         radTb1Answer3C = New RadioButton()
         radTb1Answer3B = New RadioButton()
@@ -85,10 +94,10 @@ Partial Class Form1
         ' 
         ' TbPhysics
         ' 
-        TbPhysics.Controls.Add(labelGradeTb3)
-        TbPhysics.Controls.Add(labelPercentageTb3)
-        TbPhysics.Controls.Add(labelResultTb3)
-        TbPhysics.Controls.Add(btnSubmit)
+        TbPhysics.Controls.Add(lblGradeTb3)
+        TbPhysics.Controls.Add(lblPercentageTb3)
+        TbPhysics.Controls.Add(lblScoreTb3)
+        TbPhysics.Controls.Add(btnSubmitTb3)
         TbPhysics.Controls.Add(GroupBox9)
         TbPhysics.Controls.Add(GroupBox8)
         TbPhysics.Controls.Add(GroupBox7)
@@ -100,41 +109,41 @@ Partial Class Form1
         TbPhysics.Text = "Physics"
         TbPhysics.UseVisualStyleBackColor = True
         ' 
-        ' labelGradeTb3
+        ' lblGradeTb3
         ' 
-        labelGradeTb3.AutoSize = True
-        labelGradeTb3.Location = New Point(518, 340)
-        labelGradeTb3.Name = "labelGradeTb3"
-        labelGradeTb3.Size = New Size(69, 25)
-        labelGradeTb3.TabIndex = 5
-        labelGradeTb3.Text = "GRADE"
+        lblGradeTb3.AutoSize = True
+        lblGradeTb3.Location = New Point(501, 342)
+        lblGradeTb3.Name = "lblGradeTb3"
+        lblGradeTb3.Size = New Size(69, 25)
+        lblGradeTb3.TabIndex = 5
+        lblGradeTb3.Text = "GRADE"
         ' 
-        ' labelPercentageTb3
+        ' lblPercentageTb3
         ' 
-        labelPercentageTb3.AutoSize = True
-        labelPercentageTb3.Location = New Point(512, 280)
-        labelPercentageTb3.Name = "labelPercentageTb3"
-        labelPercentageTb3.Size = New Size(116, 25)
-        labelPercentageTb3.TabIndex = 4
-        labelPercentageTb3.Text = "PERCENTAGE"
+        lblPercentageTb3.AutoSize = True
+        lblPercentageTb3.Location = New Point(501, 280)
+        lblPercentageTb3.Name = "lblPercentageTb3"
+        lblPercentageTb3.Size = New Size(116, 25)
+        lblPercentageTb3.TabIndex = 4
+        lblPercentageTb3.Text = "PERCENTAGE"
         ' 
-        ' labelResultTb3
+        ' lblScoreTb3
         ' 
-        labelResultTb3.AutoSize = True
-        labelResultTb3.Location = New Point(501, 224)
-        labelResultTb3.Name = "labelResultTb3"
-        labelResultTb3.Size = New Size(70, 25)
-        labelResultTb3.TabIndex = 3
-        labelResultTb3.Text = "RESULT"
+        lblScoreTb3.AutoSize = True
+        lblScoreTb3.Location = New Point(501, 224)
+        lblScoreTb3.Name = "lblScoreTb3"
+        lblScoreTb3.Size = New Size(67, 25)
+        lblScoreTb3.TabIndex = 3
+        lblScoreTb3.Text = "SCORE"
         ' 
-        ' btnSubmit
+        ' btnSubmitTb3
         ' 
-        btnSubmit.Location = New Point(501, 156)
-        btnSubmit.Name = "btnSubmit"
-        btnSubmit.Size = New Size(112, 34)
-        btnSubmit.TabIndex = 2
-        btnSubmit.Text = "Submit"
-        btnSubmit.UseVisualStyleBackColor = True
+        btnSubmitTb3.Location = New Point(501, 156)
+        btnSubmitTb3.Name = "btnSubmitTb3"
+        btnSubmitTb3.Size = New Size(112, 34)
+        btnSubmitTb3.TabIndex = 2
+        btnSubmitTb3.Text = "Submit"
+        btnSubmitTb3.UseVisualStyleBackColor = True
         ' 
         ' GroupBox9
         ' 
@@ -263,7 +272,7 @@ Partial Class Form1
         ' radTb3Answer1A
         ' 
         radTb3Answer1A.AutoSize = True
-        radTb3Answer1A.Location = New Point(3, 27)
+        radTb3Answer1A.Location = New Point(4, 30)
         radTb3Answer1A.Name = "radTb3Answer1A"
         radTb3Answer1A.Size = New Size(99, 29)
         radTb3Answer1A.TabIndex = 0
@@ -273,6 +282,10 @@ Partial Class Form1
         ' 
         ' TbEnglish
         ' 
+        TbEnglish.Controls.Add(btnSubmitTb2)
+        TbEnglish.Controls.Add(lblGradeTb2)
+        TbEnglish.Controls.Add(lblPercentageTb2)
+        TbEnglish.Controls.Add(lblScoreTb2)
         TbEnglish.Controls.Add(GroupBox6)
         TbEnglish.Controls.Add(GroupBox5)
         TbEnglish.Controls.Add(GroupBox4)
@@ -283,6 +296,42 @@ Partial Class Form1
         TbEnglish.TabIndex = 1
         TbEnglish.Text = "English"
         TbEnglish.UseVisualStyleBackColor = True
+        ' 
+        ' btnSubmitTb2
+        ' 
+        btnSubmitTb2.Location = New Point(502, 145)
+        btnSubmitTb2.Name = "btnSubmitTb2"
+        btnSubmitTb2.Size = New Size(112, 34)
+        btnSubmitTb2.TabIndex = 6
+        btnSubmitTb2.Text = "SUBMIT"
+        btnSubmitTb2.UseVisualStyleBackColor = True
+        ' 
+        ' lblGradeTb2
+        ' 
+        lblGradeTb2.AutoSize = True
+        lblGradeTb2.Location = New Point(502, 425)
+        lblGradeTb2.Name = "lblGradeTb2"
+        lblGradeTb2.Size = New Size(69, 25)
+        lblGradeTb2.TabIndex = 5
+        lblGradeTb2.Text = "GRADE"
+        ' 
+        ' lblPercentageTb2
+        ' 
+        lblPercentageTb2.AutoSize = True
+        lblPercentageTb2.Location = New Point(502, 330)
+        lblPercentageTb2.Name = "lblPercentageTb2"
+        lblPercentageTb2.Size = New Size(116, 25)
+        lblPercentageTb2.TabIndex = 4
+        lblPercentageTb2.Text = "PERCENTAGE"
+        ' 
+        ' lblScoreTb2
+        ' 
+        lblScoreTb2.AutoSize = True
+        lblScoreTb2.Location = New Point(502, 228)
+        lblScoreTb2.Name = "lblScoreTb2"
+        lblScoreTb2.Size = New Size(67, 25)
+        lblScoreTb2.TabIndex = 3
+        lblScoreTb2.Text = "SCORE"
         ' 
         ' GroupBox6
         ' 
@@ -421,6 +470,11 @@ Partial Class Form1
         ' 
         ' TbHistory
         ' 
+        TbHistory.Controls.Add(lblGradeTb1)
+        TbHistory.Controls.Add(lblPercentageTb1)
+        TbHistory.Controls.Add(lblScoreTb1)
+        TbHistory.Controls.Add(BtnSubmitTb1)
+        TbHistory.Controls.Add(Button1)
         TbHistory.Controls.Add(GroupBox3)
         TbHistory.Controls.Add(GroupBox2)
         TbHistory.Controls.Add(GroupBox1)
@@ -431,6 +485,51 @@ Partial Class Form1
         TbHistory.TabIndex = 0
         TbHistory.Text = "History"
         TbHistory.UseVisualStyleBackColor = True
+        ' 
+        ' lblGradeTb1
+        ' 
+        lblGradeTb1.AutoSize = True
+        lblGradeTb1.Location = New Point(450, 458)
+        lblGradeTb1.Name = "lblGradeTb1"
+        lblGradeTb1.Size = New Size(69, 25)
+        lblGradeTb1.TabIndex = 7
+        lblGradeTb1.Text = "GRADE"
+        ' 
+        ' lblPercentageTb1
+        ' 
+        lblPercentageTb1.AutoSize = True
+        lblPercentageTb1.Location = New Point(450, 356)
+        lblPercentageTb1.Name = "lblPercentageTb1"
+        lblPercentageTb1.Size = New Size(116, 25)
+        lblPercentageTb1.TabIndex = 6
+        lblPercentageTb1.Text = "PERCENTAGE"
+        ' 
+        ' lblScoreTb1
+        ' 
+        lblScoreTb1.AutoSize = True
+        lblScoreTb1.Location = New Point(450, 280)
+        lblScoreTb1.Name = "lblScoreTb1"
+        lblScoreTb1.Size = New Size(67, 25)
+        lblScoreTb1.TabIndex = 5
+        lblScoreTb1.Text = "SCORE"
+        ' 
+        ' BtnSubmitTb1
+        ' 
+        BtnSubmitTb1.Location = New Point(450, 169)
+        BtnSubmitTb1.Name = "BtnSubmitTb1"
+        BtnSubmitTb1.Size = New Size(151, 45)
+        BtnSubmitTb1.TabIndex = 4
+        BtnSubmitTb1.Text = "Submit"
+        BtnSubmitTb1.UseVisualStyleBackColor = True
+        ' 
+        ' Button1
+        ' 
+        Button1.Location = New Point(565, 118)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(8, 32)
+        Button1.TabIndex = 3
+        Button1.Text = "Button1"
+        Button1.UseVisualStyleBackColor = True
         ' 
         ' GroupBox3
         ' 
@@ -596,6 +695,7 @@ Partial Class Form1
         GroupBox7.ResumeLayout(False)
         GroupBox7.PerformLayout()
         TbEnglish.ResumeLayout(False)
+        TbEnglish.PerformLayout()
         GroupBox6.ResumeLayout(False)
         GroupBox6.PerformLayout()
         GroupBox5.ResumeLayout(False)
@@ -603,6 +703,7 @@ Partial Class Form1
         GroupBox4.ResumeLayout(False)
         GroupBox4.PerformLayout()
         TbHistory.ResumeLayout(False)
+        TbHistory.PerformLayout()
         GroupBox3.ResumeLayout(False)
         GroupBox3.PerformLayout()
         GroupBox2.ResumeLayout(False)
@@ -655,9 +756,18 @@ Partial Class Form1
     Friend WithEvents radTb3Answer1C As RadioButton
     Friend WithEvents radTb3Answer1B As RadioButton
     Friend WithEvents radTb3Answer1A As RadioButton
-    Friend WithEvents btnSubmit As Button
-    Friend WithEvents labelResultTb3 As Label
-    Friend WithEvents labelGradeTb3 As Label
-    Friend WithEvents labelPercentageTb3 As Label
+    Friend WithEvents btnSubmitTb3 As Button
+    Friend WithEvents lblScoreTb3 As Label
+    Friend WithEvents lblGradeTb3 As Label
+    Friend WithEvents lblPercentageTb3 As Label
+    Friend WithEvents BtnSubmitTb1 As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents lblScoreTb1 As Label
+    Friend WithEvents lblGradeTb1 As Label
+    Friend WithEvents lblPercentageTb1 As Label
+    Friend WithEvents lblPercentageTb2 As Label
+    Friend WithEvents lblScoreTb2 As Label
+    Friend WithEvents btnSubmitTb2 As Button
+    Friend WithEvents lblGradeTb2 As Label
 
 End Class

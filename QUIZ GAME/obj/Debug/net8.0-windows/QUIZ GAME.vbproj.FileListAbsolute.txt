@@ -4,3 +4,10 @@ C:\Users\HP\source\repos\QUIZ GAME\QUIZ GAME\obj\Debug\net8.0-windows\QUIZ GAME.
 C:\Users\HP\source\repos\QUIZ GAME\QUIZ GAME\obj\Debug\net8.0-windows\QUIZ GAME.AssemblyInfoInputs.cache
 C:\Users\HP\source\repos\QUIZ GAME\QUIZ GAME\obj\Debug\net8.0-windows\QUIZ GAME.AssemblyInfo.vb
 C:\Users\HP\source\repos\QUIZ GAME\QUIZ GAME\obj\Debug\net8.0-windows\QUIZ GAME.vbproj.CoreCompileInputs.cache
+C:\Users\HP\Source\Repos\Sintax66\QUIZ-GAME\QUIZ GAME\obj\Debug\net8.0-windows\QUIZ_GAME.Form1.resources
+C:\Users\HP\Source\Repos\Sintax66\QUIZ-GAME\QUIZ GAME\obj\Debug\net8.0-windows\QUIZ GAME.vbproj.GenerateResource.cache
+C:\Users\HP\Source\Repos\Sintax66\QUIZ-GAME\QUIZ GAME\obj\Debug\net8.0-windows\QUIZ GAME.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Source\Repos\Sintax66\QUIZ-GAME\QUIZ GAME\obj\Debug\net8.0-windows\QUIZ GAME.AssemblyInfoInputs.cache
+C:\Users\HP\Source\Repos\Sintax66\QUIZ-GAME\QUIZ GAME\obj\Debug\net8.0-windows\QUIZ GAME.AssemblyInfo.vb
+C:\Users\HP\Source\Repos\Sintax66\QUIZ-GAME\QUIZ GAME\obj\Debug\net8.0-windows\QUIZ GAME.vbproj.CoreCompileInputs.cache
+C:\Users\HP\Source\Repos\Sintax66\QUIZ-GAME\QUIZ GAME\obj\Debug\net8.0-windows\QUIZ GAME.sourcelink.json

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\QUIZ GAME\\QUIZ GAME\\QUIZ GAME.vbproj": {}
+    "C:\\Users\\HP\\Source\\Repos\\Sintax66\\QUIZ-GAME\\QUIZ GAME\\QUIZ GAME.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\QUIZ GAME\\QUIZ GAME\\QUIZ GAME.vbproj": {
+    "C:\\Users\\HP\\Source\\Repos\\Sintax66\\QUIZ-GAME\\QUIZ GAME\\QUIZ GAME.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\QUIZ GAME\\QUIZ GAME\\QUIZ GAME.vbproj",
+        "projectUniqueName": "C:\\Users\\HP\\Source\\Repos\\Sintax66\\QUIZ-GAME\\QUIZ GAME\\QUIZ GAME.vbproj",
         "projectName": "QUIZ GAME",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\QUIZ GAME\\QUIZ GAME\\QUIZ GAME.vbproj",
+        "projectPath": "C:\\Users\\HP\\Source\\Repos\\Sintax66\\QUIZ-GAME\\QUIZ GAME\\QUIZ GAME.vbproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\QUIZ GAME\\QUIZ GAME\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Source\\Repos\\Sintax66\\QUIZ-GAME\\QUIZ GAME\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
